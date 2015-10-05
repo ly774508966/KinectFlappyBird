@@ -885,6 +885,9 @@ public class KinectManager : MonoBehaviour
 			gestureData.checkForGestures.Add(KinectGestures.Gestures.ZoomIn);
 			gestureData.checkForGestures.Add(KinectGestures.Gestures.ZoomOut);			
 			break;
+		case KinectGestures.Gestures.RaiseRightHand:
+			gestureData.checkForGestures.Add(KinectGestures.Gestures.RaiseRightHand);
+			break;
 		}
 
 		gesturesData.Add(gestureData);
